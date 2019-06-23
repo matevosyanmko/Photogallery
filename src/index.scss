@@ -1,0 +1,32 @@
+@import '~antd/dist/antd.css';
+@import-normalize;
+
+$backgroundLight: #fff;
+$backgroundDark: rgba(0, 0, 0, 0.98);
+
+@font-face {
+  font-family: BebasNeu;
+  src: url(./assets/fonts/BebasNeue-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: BebasNeu;
+  src: url(./assets/fonts/BebasNeue-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: BebasNeu;
+  src: url(./assets/fonts/BebasNeue-Light.ttf);
+  font-weight: 300;
+}
+
+body {
+  font-family: BebasNeu;
+  background: $backgroundDark;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ant-layout {
+  background: transparent;
+}

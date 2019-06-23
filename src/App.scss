@@ -1,0 +1,41 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fadeIn {
+  animation: fadeIn 1.5s ease-in-out;
+}
+.ant-layout {
+  padding: 12px;
+}
+.ant-layout-header {
+  height: auto;
+  .header {
+    background: transparent;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 1569px) {
+  .videoItem {
+    height: 240px;
+    max-width: 480px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .videoItem {
+    height: 240px;
+    max-width: 360px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .videoItem {
+    height: 240px;
+    max-width: 100%;
+  }
+}
