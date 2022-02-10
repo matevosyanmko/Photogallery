@@ -5,7 +5,7 @@
   "dependencies": {
     "animate.css": "^3.7.2",
     "antd": "^3.19.2",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "rc-animate": "^2.8.3",
     "rc-scroll-anim": "^2.5.8",
     "rc-tween-one": "^2.4.1",
